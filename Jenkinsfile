@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'yourdockerid/my-spring-app'
+        IMAGE_NAME = 'chaerish/skala-stock-'
         IMAGE_TAG = "${env.BUILD_NUMBER}"
     }
 
